@@ -1,6 +1,7 @@
 class GameController < ApplicationController
   def index
     @state ||= "222000111"
+    @usage = "Usage: http://hostname/game/move?state=222000111"
   end
 
   def move
