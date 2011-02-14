@@ -11,12 +11,12 @@ class GameController < ApplicationController
       return
     end
     status = state.split(//)
-    @state = catch(:done) {
+    catch(:done) {
       8.downto(6) do |i|
         if status[i] == "1"
           if status[i - 3] == "2"
             status[i], status[i - 6] = status[i - 6], status[i]
-            throw :done, status.join
+            throw :done
           end
         end
       end
@@ -24,12 +24,12 @@ class GameController < ApplicationController
         if status[i] == "1"
           if status[i - 3] == "0"
             status[i], status[i - 3] = status[i - 3], status[i]
-            throw :done, status.join
+            throw :done
           end
         end
       end
     }
-    @state ||= status.join
+    @state = status.join
     render :action => :index
   end
 end

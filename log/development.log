@@ -627,3 +627,57 @@ Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/game/move]
 Processing GameController#move (for 127.0.0.1 at 2011-02-15 01:26:40) [GET]
 Rendering game/index
 Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/game/move]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-15 01:33:05) [GET]
+  Parameters: {"state"=>"212001120"}
+Rendering game/index
+Completed in 30ms (View: 8, DB: 0) | 200 OK [http://localhost/game/move?state=212001120]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-15 01:33:15) [GET]
+  Parameters: {"state"=>"212101020"}
+Rendering game/index
+
+ActionView::TemplateError (private method `split' called for 8:Fixnum) on line #18 of app/views/game/index.html.erb:
+15:   end
+16: %>
+17: <table border="1">
+18: <% @state.split(//).each_slice(3) do |line| %>
+19: <tr>
+20: <%   line.each do |piece| %>
+21: <td><%= who(piece) %></td>
+
+    app/views/game/index.html.erb:18
+    app/controllers/game_controller.rb:33:in `move'
+
+Rendered rescues/_trace (270.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-15 01:34:27) [GET]
+  Parameters: {"state"=>"212101020"}
+Rendering game/index
+
+ActionView::TemplateError (private method `split' called for 8:Fixnum) on line #18 of app/views/game/index.html.erb:
+15:   end
+16: %>
+17: <table border="1">
+18: <% @state.split(//).each_slice(3) do |line| %>
+19: <tr>
+20: <%   line.each do |piece| %>
+21: <td><%= who(piece) %></td>
+
+    app/views/game/index.html.erb:18
+    app/controllers/game_controller.rb:34:in `move'
+
+Rendered rescues/_trace (240.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-15 01:36:11) [GET]
+  Parameters: {"state"=>"212101020"}
+Rendering game/index
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=212101020]
