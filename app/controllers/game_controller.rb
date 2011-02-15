@@ -1,16 +1,26 @@
 class GameController < ApplicationController
   def index
     @state ||= "222000111"
-    @usage = "Usage: http://hostname/game/move?state=222000111"
+    @usage = "Usage: http://#{request.host}/game/move?state=222000111"
   end
 
   def move
     state = params[:state]
     unless state
       @state = "入力を間違えてるわ"
-      render :action => :index
+      render_index
       return
     end
+    @state = think(state)
+    render_index
+  end
+
+  private
+  def render_index
+    render :action => :index
+  end
+
+  def think(state)
     status = state.split(//)
     catch(:done) {
       8.downto(6) do |i|
@@ -30,7 +40,7 @@ class GameController < ApplicationController
         end
       end
     }
-    @state = status.join
-    render :action => :index
+    return status.join
   end
 end
+
