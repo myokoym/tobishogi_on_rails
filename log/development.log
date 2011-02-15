@@ -772,3 +772,152 @@ Processing GameController#move (for 127.0.0.1 at 2011-02-15 02:15:45) [GET]
   Parameters: {"state"=>"222000111"}
 Rendering game/index
 Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:08:06) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 128ms (View: 125, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-16 00:08:13) [GET]
+Rendering game/index
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/game/]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-16 00:10:33) [GET]
+Rendering game/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/game/]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:10:40) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:12:29) [GET]
+  Parameters: {"state"=>"222000111"}
+
+NameError (undefined local variable or method `request_url' for #<GameController:0xb6e426fc>):
+  app/controllers/game_controller.rb:20:in `render'
+  app/controllers/game_controller.rb:15:in `move'
+
+Rendered rescues/_trace (78.6ms)
+Rendered rescues/_request_and_response (16.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:13:16) [GET]
+  Parameters: {"state"=>"222000111"}
+
+NoMethodError (undefined method `request_url' for #<ActionController::Request:0xb6d68fd8>):
+  app/controllers/game_controller.rb:20:in `render'
+  app/controllers/game_controller.rb:15:in `move'
+
+Rendered rescues/_trace (193.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:13:47) [GET]
+  Parameters: {"state"=>"222000111"}
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/game_controller.rb:21:in `render'
+  app/controllers/game_controller.rb:21:in `render'
+  app/controllers/game_controller.rb:15:in `move'
+
+Rendered rescues/_trace (77.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:14:51) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:15:29) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:16:13) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:17:25) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:22:39) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:25:25) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 25ms (View: 22, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:25:49) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:26:42) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:26:43) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:27:29) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 45ms (View: 43, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:30:59) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:41:13) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:42:50) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:43:36) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:46:49) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
