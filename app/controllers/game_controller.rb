@@ -23,18 +23,18 @@ class GameController < ApplicationController
   def think(state)
     status = state.split(//)
     catch(:done) {
-      8.downto(6) do |i|
-        if status[i] == "1"
-          if status[i - 3] == "2"
-            status[i], status[i - 6] = status[i - 6], status[i]
+      0.upto(2) do |i|
+        if status[i] == "2"
+          if status[i + 3] == "1"
+            status[i], status[i + 6] = status[i + 6], status[i]
             throw :done
           end
         end
       end
-      8.downto(3) do |i|
-        if status[i] == "1"
-          if status[i - 3] == "0"
-            status[i], status[i - 3] = status[i - 3], status[i]
+      0.upto(5) do |i|
+        if status[i] == "2"
+          if status[i + 3] == "0"
+            status[i], status[i + 3] = status[i + 3], status[i]
             throw :done
           end
         end
