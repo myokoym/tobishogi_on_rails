@@ -1,0 +1,33 @@
+<h1>飛び将棋</h1>
+<p>
+<%
+  def who(piece)
+    case(piece)
+    when "1"
+      "上"
+    when "2"
+      "下"
+    when "0"
+      "　"
+    else
+      piece
+    end
+  end
+%>
+<table border="1">
+<% @state.split(//).each_slice(3) do |line| %>
+<tr>
+<%   line.each do |piece| %>
+<td><%= who(piece) %></td>
+<%   end %>
+</tr>
+<% end %>
+</table>
+</p>
+<% if @usage %>
+<p> - GET盤 - </p>
+<%= @usage %>
+<% else %>
+state=<%= @state %>
+<% end %>
+

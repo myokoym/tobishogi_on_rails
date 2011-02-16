@@ -955,3 +955,84 @@ Processing GameController#index (for 127.0.0.1 at 2011-02-17 00:12:21) [GET]
 Rendering template within layouts/application
 Rendering game/index
 Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GetController#index (for 127.0.0.1 at 2011-02-17 00:27:20) [GET]
+Rendering template within layouts/application
+Rendering get/index
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/get]
+
+
+Processing GetController#index (for 127.0.0.1 at 2011-02-17 00:32:58) [GET]
+Rendering template within layouts/application
+Rendering get/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/get]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:33:03) [GET]
+Rendering template within layouts/application
+Rendering get/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/get/move]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:33:15) [GET]
+  Parameters: {"state"=>""}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhost/get/move?state=]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:33:21) [GET]
+  Parameters: {"state"=>"111000000000222"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/get/move?state=111000000000222]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:33:30) [GET]
+  Parameters: {"state"=>"222000000000111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=222000000000111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:40:53) [GET]
+  Parameters: {"state"=>"022000000200111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:41:10) [GET]
+  Parameters: {"state"=>"02200000200111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 19ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=02200000200111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:41:17) [GET]
+  Parameters: {"state"=>"022000000200111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 23ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:43:03) [GET]
+  Parameters: {"state"=>"022000000200111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:43:12) [GET]
+  Parameters: {"state"=>"022000000200000111"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 24ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200000111]
+
+
+Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:45:30) [GET]
+  Parameters: {"state"=>"022000000200100011"}
+Rendering template within layouts/application
+Rendering get/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200100011]
