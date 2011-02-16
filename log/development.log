@@ -921,3 +921,37 @@ Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:46:49) [GET]
   Parameters: {"state"=>"222000111"}
 Rendering game/index
 Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:50:47) [GET]
+  Parameters: {"state"=>"222000111"}
+Rendering game/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222000111]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:50:54) [GET]
+  Parameters: {"state"=>"222001110"}
+Rendering game/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/game/move?state=222001110]
+
+
+Processing GameController#move (for 127.0.0.1 at 2011-02-16 00:51:00) [GET]
+Rendering game/index
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/game/move]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-16 00:51:05) [GET]
+Rendering game/index
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-17 00:11:26) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 131ms (View: 128, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-17 00:12:21) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/game]
