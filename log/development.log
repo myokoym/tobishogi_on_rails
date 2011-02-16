@@ -1036,3 +1036,27 @@ Processing GetController#move (for 127.0.0.1 at 2011-02-17 00:45:30) [GET]
 Rendering template within layouts/application
 Rendering get/index
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/get/move?state=022000000200100011]
+
+
+Processing GetController#index (for 127.0.0.1 at 2011-02-17 00:51:52) [GET]
+Rendering template within layouts/application
+Rendering get/index
+Completed in 212ms (View: 7, DB: 0) | 200 OK [http://localhost/get]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-17 00:52:02) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 50ms (View: 26, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-17 00:54:46) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GetController#index (for 127.0.0.1 at 2011-02-17 00:54:50) [GET]
+Rendering template within layouts/application
+Rendering get/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/get]
