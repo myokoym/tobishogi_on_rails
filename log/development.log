@@ -2629,3 +2629,220 @@ Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:24:43) [POST]
 Rendering template within layouts/application
 Rendering game/graphic
 Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:39:22) [GET]
+Redirected to http://localhost:3000/game
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/game/graphic]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:39:22) [GET]
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 49ms (View: 42, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:39:33) [GET]
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 93ms (View: 70, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:40:02) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 95ms (View: 89, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:40:05) [GET]
+Redirected to http://localhost:3000/game
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/game/graphic]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:40:05) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:40:09) [GET]
+Redirected to http://localhost:3000/game
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/game/graphic]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:40:09) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 26ms (View: 22, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#index (for 127.0.0.1 at 2011-02-18 01:42:24) [GET]
+Rendering template within layouts/application
+Rendering game/index
+Completed in 33ms (View: 27, DB: 0) | 200 OK [http://localhost/game]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:26) [GET]
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:27) [POST]
+  Parameters: {"x"=>"25", "y"=>"29", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"8", "state"=>"222000111"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:28) [POST]
+  Parameters: {"x"=>"21", "y"=>"18", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"7", "state"=>"220001112"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 35ms (View: 29, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:29) [POST]
+  Parameters: {"x"=>"29", "y"=>"18", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"6", "state"=>"200011122"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 32ms (View: 28, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:30) [POST]
+  Parameters: {"x"=>"19", "y"=>"18", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"7", "state"=>"000111222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:31) [POST]
+  Parameters: {"x"=>"19", "y"=>"18", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"7", "state"=>"000111222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 32ms (View: 28, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:32) [POST]
+  Parameters: {"x"=>"17", "y"=>"10", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"8", "state"=>"000111222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:33) [POST]
+  Parameters: {"x"=>"23", "y"=>"10", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"2", "state"=>"000111222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:35) [POST]
+  Parameters: {"x"=>"21", "y"=>"20", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"1", "state"=>"001110222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 35ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:36) [POST]
+  Parameters: {"x"=>"25", "y"=>"23", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"4", "state"=>"011100222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 53ms (View: 42, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:38) [POST]
+  Parameters: {"x"=>"18", "y"=>"23", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"0", "state"=>"011100222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:39) [POST]
+  Parameters: {"x"=>"16", "y"=>"22", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"6", "state"=>"111000222"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:40) [POST]
+  Parameters: {"x"=>"39", "y"=>"26", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"7", "state"=>"111200022"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 27ms (View: 24, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:41) [POST]
+  Parameters: {"x"=>"7", "y"=>"27", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"8", "state"=>"111220002"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:49) [POST]
+  Parameters: {"x"=>"7", "y"=>"27", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"8", "state"=>"111220002"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 147ms (View: 121, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:53) [GET]
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 89ms (View: 86, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:56) [POST]
+  Parameters: {"x"=>"24", "y"=>"35", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"2", "state"=>"222000111"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:42:58) [POST]
+  Parameters: {"x"=>"21", "y"=>"28", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"1", "state"=>"022200111"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:00) [POST]
+  Parameters: {"x"=>"17", "y"=>"27", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"5", "state"=>"002220111"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:06) [POST]
+  Parameters: {"x"=>"29", "y"=>"23", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"2", "state"=>"000221112"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:10) [POST]
+  Parameters: {"x"=>"29", "y"=>"24", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"1", "state"=>"001220112"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 35ms (View: 31, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:12) [POST]
+  Parameters: {"x"=>"21", "y"=>"21", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"1", "state"=>"001220112"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 26ms (View: 23, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:13) [POST]
+  Parameters: {"x"=>"15", "y"=>"23", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"7", "state"=>"001220112"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/game/graphic]
+
+
+Processing GameController#graphic (for 127.0.0.1 at 2011-02-18 01:43:14) [POST]
+  Parameters: {"x"=>"10", "y"=>"27", "authenticity_token"=>"H43iK6WmneEvnaFm77VA0SJYpWm/41czXH7Zs1nWngs=", "place"=>"6", "state"=>"011200122"}
+Rendering template within layouts/application
+Rendering game/graphic
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://localhost/game/graphic]

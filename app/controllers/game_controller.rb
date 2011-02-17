@@ -1,13 +1,14 @@
 class GameController < ApplicationController
   def index
     @state ||= "222000111"
-    render_graphic
+    render_index
   end
 
   def move
     state = params[:state]
     unless state
-      redirect_to :action => :index
+      @state ||= "222000111"
+      render_index
       return
     end
     status = state.split(//)
@@ -28,7 +29,8 @@ class GameController < ApplicationController
   def graphic
     state = params[:state]
     unless state
-      redirect_to :action => :index
+      @state ||= "222000111"
+      render_graphic
       return
     end
     status = state.split(//)
