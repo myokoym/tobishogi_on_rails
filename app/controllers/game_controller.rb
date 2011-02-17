@@ -8,7 +8,15 @@ class GameController < ApplicationController
     status = params[:state].split(//)
     place = params[:place]
     status = moving(status, place.to_i, "1")
-    @state = think(status.join)
+    @winner = winner(status)
+    if @winner == "1"
+      @state = status.join
+      render_index 
+      return
+    end
+    status = think(status)
+    @winner = winner(status)
+    @state = status.join
     render_index
   end
 
@@ -32,12 +40,10 @@ class GameController < ApplicationController
         status[i], status[i + 3] = status[i + 3], status[i]
       end
     end
-    p status
     status
   end
 
-  def think(state)
-    status = state.split(//)
+  def think(status)
     catch(:done) {
       0.upto(2) do |i|
         if status[i] == "2"
@@ -56,7 +62,13 @@ class GameController < ApplicationController
         end
       end
     }
-    return status.join
+    return status
+  end
+
+  def winner(status)
+    return "1" if status[0..2].all? {|v| v == "1" }
+    return "2" if status[-3..-1].all? {|v| v == "2" }
+    nil
   end
 end
 
