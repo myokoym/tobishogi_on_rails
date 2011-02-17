@@ -1,0 +1,49 @@
+<h1>飛び将棋</h1>
+<p>
+  <%
+    def who(piece)
+      case(piece)
+      when "1"
+        "fu1.png"
+      when "2"
+        "fu2.png"
+      when "0"
+        "blank.png"
+      else
+        piece
+      end
+    end
+  -%>
+  <table border="1">
+    <% i = 0 -%>
+    <% @state.split(//).each_slice(3) do |line| -%>
+    <tr>
+      <% line.each do |piece| -%>
+      <td>
+        <% form_tag(:action => :graphic) do -%>
+          <%= hidden_field_tag(:state, @state) %>
+          <%= hidden_field_tag(:place, i) %>
+          <%= image_submit_tag(who(piece)) %>
+        <% end -%>
+      </td>
+      <% i += 1 -%>
+      <% end -%>
+    </tr>
+    <% end -%>
+  </table>
+</p>
+<% if @message -%>
+  <p>
+    <%= @message %>
+  </p>
+<% end -%>
+<% if @winner -%>
+  <p>
+    <% if @winner == "1" -%>
+      先手の勝ちです。
+    <% else -%>
+      後手の勝ちです。
+    <% end -%>
+  </p>
+<% end -%>
+

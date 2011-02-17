@@ -1,11 +1,16 @@
 class GameController < ApplicationController
   def index
     @state ||= "222000111"
-    render_index
+    render_graphic
   end
 
   def move
-    status = params[:state].split(//)
+    state = params[:state]
+    unless state
+      redirect_to :action => :index
+      return
+    end
+    status = state.split(//)
     place = params[:place]
     status = moving(status, place.to_i, "1")
     @winner = winner(status)
@@ -20,10 +25,36 @@ class GameController < ApplicationController
     render_index
   end
 
+  def graphic
+    state = params[:state]
+    unless state
+      redirect_to :action => :index
+      return
+    end
+    status = state.split(//)
+    place = params[:place]
+    status = moving(status, place.to_i, "1")
+    @winner = winner(status)
+    if @winner == "1"
+      @state = status.join
+      render_graphic 
+      return
+    end
+    status = think(status)
+    @winner = winner(status)
+    @state = status.join
+    render_graphic
+  end
+
   private
   def render_index
     @title ||= "飛び将棋"
     render :action => :index
+  end
+
+  def render_graphic
+    @title ||= "飛び将棋-Graphic"
+    render :action => :graphic
   end
 
   def moving(status, i, turn)
